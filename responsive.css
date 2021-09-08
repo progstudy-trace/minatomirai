@@ -1,0 +1,201 @@
+@media(min-width:670px){
+  /* 共通 */
+  .sp{
+    display:none;
+  }
+  .pc{
+    display:block;
+  }
+  .section-title-row{
+    width:816px;
+    margin:0 auto;
+  }
+  
+  /* ヘッダー、ナビ */
+  header h1{
+    display:block;
+    margin:50px 0 0 10%;
+    width:266px;
+    float:left;
+  }
+  header h1:hover{
+    opacity: 0.7;
+  }
+  nav{
+    float:right;
+    width:auto;
+    margin:60px 50px 0 0;
+  }
+  nav li{
+    display:inline-block;
+    height:30px;
+    padding:0;
+    margin-right:30px;
+    background-color:rgba(0,0,0,0);
+    border:none;
+    line-height: 30px;
+  }
+  nav li a{
+    display:block;
+  }
+  nav li a:hover{
+    text-decoration: none;
+    color:#fff;
+    border-bottom:2px solid #fff;
+  }
+  .slide-nav{
+    display:block;
+  }
+  .nav-menu{
+    display:none;
+  }
+  
+
+ /* メインビジュアル */
+  #mv{
+    height:550px;
+    margin-top:0;
+  }
+  .mv-logo{
+    display:none;
+  }
+ 
+  /* 旅に出よう */
+  #concept{
+    text-align:center;
+    padding:100px 0;
+  }
+  #concept h2{
+    font-size:44px;
+    line-height:1.7;
+  }
+  #concept p{
+    font-size:20px;
+    width:370px;
+    margin:20px auto 0 auto;
+    text-align:left;
+  }
+  #concept img{
+    width:211px;
+    height:54px;
+  }
+
+  /* PRODUCT */
+  .product{
+    text-align: left;
+    padding-top:100px;
+  }
+  .product h2{
+    float:left;
+  }
+  .btn{
+    float:right;
+  }
+  .product-row{
+    width:816px;
+    margin:0 auto;
+  }
+  .product-box{
+    margin:30px 0;
+    width:33%;
+    float:left;
+    padding:20px;
+  }
+  .product p{
+    font-size:20px;
+    padding:20px 8px 0 8px;
+  }
+
+  /* NEWS */
+  #news{
+    padding-left:250px;
+    padding-right:250px;
+  }
+  #news h2{
+    float:left;
+  }
+  .btn{
+    float:right;
+  }
+  .news-row{
+    width:846px;
+    margin:50px auto;
+    padding:0 15px;
+  }
+  #news img{
+    width:322.5px;
+    height:181.2px;
+  }
+  .news-row:hover{
+    opacity:0.7;
+  }
+
+  .news-right{
+    width:464px;
+    float:right;
+  }
+  .news-txt{
+    font-size:13px;
+    color:#656c6e;
+    font-family:"Helvetica Neue", Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    line-height: 1.7;
+  }
+  #pagetop:hover{
+    height:55px;
+  }
+  
+  /* SNS */
+  .btn-outline-success{
+    display:none;
+  }
+  #sns{
+    padding: 30px 0;
+  }
+  .sns-row{
+    width:100%;
+    margin:0;
+    text-align:center;
+  }
+  #sns .btn{
+    width:162px;
+    padding:12px 0;
+    background-image:none;
+    font-size:13px;
+    letter-spacing:1px;
+    margin:10px 10px;
+  }
+  
+  /* フッターナビ */
+  #footer-nav{
+    background-color: #939899;
+    text-align: center;
+  }
+  #footer-nav li{
+    display:inline-block;
+    background-color: none;
+    border:none;
+    margin:20px 15px;
+  }
+  #footer-nav a:hover{
+    text-decoration: none;
+    color:#fff;
+    opacity:0.5;
+  }
+
+  /* フッター */
+  footer{
+    text-align:left;
+  }
+  .footer-inner{
+    width:786px;
+    margin:0 auto;
+  }
+  footer p{
+    float:right;
+    margin-top:40px;
+  }
+  footer img{
+    margin-bottom:0;
+  }
+  
+}
